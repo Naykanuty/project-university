@@ -181,13 +181,32 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#contact-form #name{
+#contact-form input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="phone"],
+input[type="date"]{
     height: 20px;
     width: 250px;
     padding: 5px;
     border: #fff 1px solid;
     background-color: #eddfff;
     text-align: center;
+}
+
+#message{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    border: #fff 1px solid;
+    background-color: #eddfff;
+    text-align: center;
+}
+
+#topic{
+    background-color: #eddfff;
+    padding: 5px;
+    text-transform: uppercase;
 }
 
 .specific { 
@@ -219,4 +238,13 @@ td:nth-child(7){
 }
 tr:nth-child(even){
     background-color: #012c6d;
+}
+
+#contact-form input[type="submit"] {
+    background-color: #0896e7;
+    padding: 5px;
+    text-transform: uppercase;
+}
+#contact-form input[type="submit"]:hover {
+    background-color: #eddfff;
 }
