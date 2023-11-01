@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TablePyzo</title>
+    <link rel="icon" type="image/png" href="img/logo2.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Формы</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="btn">Главная</a></li>
+        </ul>
+    </nav>
+
+    <form action="" id="contact-form">
+        <div class="form__item">
+            <h2>Связь</h2>
+          <label for="topic">Тема</label><br>
+          <select name="topic" id="topic" required>
+            <option value="1">Предложить новые идеи</option>
+            <option value="2">Написать отзыв</option>
+            <option value="3">Сотрудничество</option>
+            <option value="4">Другое..</option>
+          </select>
+        </div>
+        <div class="form__item">
+          <label for="name">Имя</label><br>
+          <input name="name" id="name" type="text" placeholder="Введите имя" required>
+        </div>
+        <div class="form__item">
+          <label for="name" >E-mail</label><br>
+          <input name="name" id="name" type="email" placeholder = "Введите ваш E-mail" required>
+        </div>
+        <div class="form__item">
+          <label for="phone">Телефон</label><br>
+          <input type="tel" id="name" name="phone" placeholder="Ваш телефон" required>
+        </div>
+        <div class="form__item">
+          <label for="date">Дата</label><br>
+          <input type="date" name="date" id="name" required>
+        </div>
+        <div class="form__item">
+          <label for="message">Сообщение</label><br>
+          <textarea name="message" id="message" cols="35" rows="10" placeholder = "Ваше сообщение" required></textarea>
+        </div>
+        
+        <div class="form__item">
+          <label for=""><input type="checkbox" required>Я принимаю пользовательское соглашение и даю согласие на обработку персональных данных</label><br>
+
+        </div>
+        <div class="form__item_submit">
+          <input type="submit">
+        </div>
+        
+      </form>
+</body>
+</html>
